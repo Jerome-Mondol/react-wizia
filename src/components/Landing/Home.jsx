@@ -2,7 +2,7 @@ import React from "react";
 import SIgnUp from "../Buttons/SIgnUp";
 const Home = () => {
     return (
-      <div className="Home flex w-full h-[60vh] text-white justify-left items-center bg-slate-800">
+      <div className="Home flex w-full h-[60vh] text-white justify-left items-center bg-[#02242A]">
         <div className="Home-part w-fit px-30">
             <h1 className="text-cyan-400 text-2xl">AI SDRs (aiDRs)</h1>
             <h1 className="text-7xl"><span className="font-bold">More</span><span className="italic"> leads,</span> <br/> <span className="font-bold">less</span> <span className="italic"> people.</span></h1>

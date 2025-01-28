@@ -6,7 +6,7 @@ const Navbar = () => {
     const navBtns = ["Book a demo", "Contact us"]
   return (
     <div>
-        <div className="Navbar flex justify-between items-center px-30 py-5 bg-slate-900 text-white font-mono">
+        <div className="Navbar flex justify-between items-center px-30 py-5 bg-[#002228] text-white font-mono">
             <div className="logo">
                 <img src={Logo} alt="" />
             </div>

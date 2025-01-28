@@ -3,8 +3,8 @@ import Partner from "../../assets/Logos.png"
 
 const OurPartner = () => {
   return (
-    <div className="Partners bg-slate-700 h-[30vh] flex justify-center items-center flex-col">
-        <h1>Out trusted partners</h1>
+    <div className="Partners bg-[#07292F] h-[25vh] flex justify-center items-center flex-col">
+        <h1 className="text-cyan-400">Out trusted partners</h1>
         <img src={Partner} alt="" />
     </div>
   )
