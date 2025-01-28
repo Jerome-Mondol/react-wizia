@@ -1,12 +1,12 @@
 import React from 'react'
-import Logo from "../assets/Logo.png"
+import Logo from "../../assets/Logo.png"
 
 const Navbar = () => {
     const navItems = ["About us", "Pricing", "Customers", "Solutions"]
     const navBtns = ["Book a demo", "Contact us"]
   return (
     <div>
-        <div className="Navbar flex justify-between items-center px-20 py-5 bg-slate-800 text-white font-mono">
+        <div className="Navbar flex justify-between items-center px-30 py-5 bg-slate-900 text-white font-mono">
             <div className="logo">
                 <img src={Logo} alt="" />
             </div>
