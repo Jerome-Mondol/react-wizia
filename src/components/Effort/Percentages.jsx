@@ -21,9 +21,9 @@ const Percentages = () => {
 
   return (
     <div className="flex mt-10">
-      {percentages.map(({ percent, description }) => {
+      {percentages.map(({ percent, description, id}) => {
         return (
-          <div className="flex justify-center items-left flex-col gap-2 px-4">
+          <div className="flex justify-center items-left flex-col gap-2 px-4" key={id}>
             <h1 className="font-bold text-4xl text-cyan-400">{percent}</h1>
             <p className="text-white text-xl">{description}</p>
           </div>
