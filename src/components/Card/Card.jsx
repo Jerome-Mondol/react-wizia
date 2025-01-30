@@ -31,14 +31,14 @@ const Card = () => {
   return (
     <div className="bg-[#002228] text-white px-6 md:px-20 py-10">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
-        {CardData.map(({key, img, title}) => (
+        {CardData.map(({key, img, title, description}) => (
           <div
             className="flex flex-col items-center md:items-start text-center md:text-left w-full md:w-1/3 p-5 bg-[#01343D] rounded-2xl shadow-lg"
             key={key}
           >
             <img src={img} alt="" className="w-12 h-12" />
             <h3 className="text-2xl mt-5">{title}</h3>
-            <p className="text-gray-300 text-lg mt-3">{data.description}</p>
+            <p className="text-gray-300 text-lg mt-3">{description}</p>
           </div>
         ))}
       </div>
